@@ -40,12 +40,16 @@ http://localhost:3000
 
 ![Offline Alpaca](offline-chatgpt.gif)
 
+4. We can now start using this Offline ChatGPT-like language model on our PC without internet connectivity.
+Replace **PROMPT** with the query we wanna try and click on **Go**.
 
-4. **Optional:** We can also install **LLaMa** models. LLaMA models are much larger. Its 7B model takes up to **31 GB** of space. 
+5. **Optional:** We can also install **LLaMa** models. LLaMA models are much larger. Its 7B model takes up to **31 GB** of space. 
 We can also replace 7B with 13B, 30B, and 65B. The largest model takes up to **432 GB** of space. We can use the below command to install llama model.
 ```
 npx dalai llama install 7B
 ```
+6. We can also select the model name and try various options.
+
 
 ### References
 https://github.com/ggerganov/llama.cpp
